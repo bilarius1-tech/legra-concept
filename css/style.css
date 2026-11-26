@@ -130,7 +130,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .hero__media{position:relative;order:2;height:min(78svh,760px)}
 .hero__frame{position:absolute;inset:0;overflow:hidden;border-radius:280px 280px 6px 6px;box-shadow:0 60px 120px -40px rgba(0,0,0,.8)}
 .hero__frame::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,10,7,0) 50%,rgba(18,10,7,.55) 100%),linear-gradient(90deg,rgba(18,10,7,.35),transparent 40%);pointer-events:none}
-.hero__img{position:absolute;left:-10%;top:-12%;width:120%;height:124%;max-width:none;object-fit:cover;object-position:50% 50%;will-change:transform}
+.hero__img{position:absolute;left:-3%;top:-16%;width:106%;height:132%;max-width:none;object-fit:cover;object-position:50% 38%;will-change:transform}
 .hero__media::before{content:"";position:absolute;inset:-18px;border:1px solid var(--line);border-radius:298px 298px 10px 10px;pointer-events:none}
 .hero__tag{position:absolute;left:-28px;bottom:48px;background:var(--red);color:#fff;font-size:11px;letter-spacing:.24em;text-transform:uppercase;padding:12px 18px;z-index:2}
 .hero__title{font-family:var(--serif);font-weight:300;font-size:clamp(64px,10.5vw,176px);line-height:.86;letter-spacing:-.02em;margin:26px 0 18px}
@@ -283,6 +283,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .burger{display:block}
   .hero{grid-template-columns:1fr;padding-top:calc(var(--hh) + 16px);gap:30px;min-height:auto;padding-bottom:110px}
   .hero__media{order:1;height:44svh;min-height:300px}
+  .hero__img{left:-2%;top:-12%;width:104%;height:124%;object-position:50% 30%;}
   .hero__frame{border-radius:200px 200px 4px 4px}
   .hero__media::before{inset:-10px;border-radius:210px 210px 8px 8px}
   .hero__tag{left:auto;right:-6px;bottom:24px}
