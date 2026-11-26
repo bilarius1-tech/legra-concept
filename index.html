@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ЛЕГРА — лестницы на заказ в Саратове</title>
+<meta name="description" content="Лестницы на заказ в Саратове и Саратовской области: межэтажные лестницы, обшивка лестниц деревом, комплектующие. Бесплатный замер и 3D-проект.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#120a07">
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="img/hero.webp">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============ ФОН: единый для всей страницы (Tilda: T123 вставка, position:fixed) ============ -->
+<div class="bg" aria-hidden="true">
+  <div class="bg__blob bg__blob--1"></div>
+  <div class="bg__blob bg__blob--2"></div>
+  <div class="bg__blob bg__blob--3"></div>
+  <div class="bg__grain"></div>
+</div>
+
+<div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"></span></div>
+
+<div class="preloader" aria-hidden="true">
+  <div class="preloader__word">ЛЕГРА</div>
+  <div class="preloader__num"><span>0</span>%</div>
+</div>
+
+<!-- ============ 0. ШАПКА (Tilda: Zero Block, fixed) ============ -->
+<header class="header" data-block="header">
+  <a href="#top" class="header__logo" aria-label="ЛЕГРА — на главную">
+    <img src="img/logo-white.png" width="212" height="56" alt="ЛЕГРА — лестницы и комплектующие">
+  </a>
+  <nav class="header__nav" aria-label="Меню">
+    <a href="#works">Работы</a>
+    <a href="#stairs">Лестницы</a>
+    <a href="#why">Почему мы</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <a class="header__phone" href="tel:+79053870557">8 905 387 05 57</a>
+  <a class="btn btn--ghost btn--sm header__cta magnetic" href="tel:+79053870557">Заказать звонок</a>
+  <button class="burger" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+</header>
+
+<div class="mnav" aria-hidden="true">
+  <nav>
+    <a href="#works">Работы</a>
+    <a href="#stairs">Лестницы</a>
+    <a href="#why">Почему мы</a>
+    <a href="#contacts">Контакты</a>
+  </nav>
+  <a class="mnav__phone" href="tel:+79053870557">8 905 387 05 57</a>
+</div>
+
+<main id="top">
+
+<!-- ============ 1. ПЕРВЫЙ ЭКРАН (Tilda: Zero Block, параллакс — нативная анимация «Parallax» / «Scroll») ============ -->
+<section class="hero" data-block="hero">
+  <div class="hero__media">
+    <div class="hero__frame">
+      <img class="hero__img" src="img/hero.webp" width="1900" height="1054" alt="Деревянная лестница работы ЛЕГРА">
+    </div>
+    <span class="hero__tag">Собственное производство</span>
+  </div>
+
+  <div class="hero__content">
+    <p class="eyebrow"><span class="line"></span>Саратов и Саратовская область</p>
+    <h1 class="hero__title">
+      <span class="split">Лестницы</span>
+      <span class="split split--italic">на заказ</span>
+    </h1>
+    <p class="hero__slogan">Мы поможем вам подняться!</p>
+    <p class="hero__lead">Межэтажные лестницы, обшивка лестниц деревом, комплектующие для лестниц. Бесплатный замер и&nbsp;3D&#8209;проект.</p>
+    <div class="hero__ctas">
+      <a class="btn btn--red magnetic" href="tel:+79053870557">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1l-2.3 2.2Z"/></svg>
+        Позвонить
+      </a>
+      <!-- TODO: ссылка на MAX не найдена на старом сайте — сейчас ведёт на звонок. Подставить https://max.ru/... -->
+      <a class="btn btn--ghost magnetic" href="tel:+79053870557" data-todo="max-link">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3C7 3 3 6.6 3 11c0 2.4 1.2 4.6 3.1 6.1L5.5 21l3.9-2.2c.8.2 1.7.3 2.6.3 5 0 9-3.6 9-8s-4-8-9-8Z"/></svg>
+        Написать в MAX
+      </a>
+    </div>
+  </div>
+
+  <a href="#works" class="hero__scroll" aria-label="Листать вниз"><span></span>Листайте</a>
+</section>
+
+<!-- ============ 2. ГАЛЕРЕЯ-СЛАЙДЕР (Tilda: HTML-вставка T123) ============ -->
+<section class="works" id="works" data-block="gallery">
+  <div class="section-head">
+    <p class="eyebrow"><span class="line"></span>Портфолио</p>
+    <h2 class="h2"><span class="split">Примеры</span> <em class="split">наших работ</em></h2>
+  </div>
+
+  <div class="gallery" tabindex="0" aria-roledescription="карусель" aria-label="Галерея работ">
+    <div class="gallery__bgs" aria-hidden="true"></div>
+    <div class="gallery__stage"></div>
+
+    <div class="gallery__ui">
+      <div class="gallery__info">
+        <div class="gallery__count"><span class="gallery__cur">01</span><span class="gallery__sep"></span><span class="gallery__total">09</span></div>
+        <h3 class="gallery__title"></h3>
+        <p class="gallery__sub"></p>
+      </div>
+      <div class="gallery__nav">
+        <button class="gbtn gbtn--prev magnetic" aria-label="Предыдущая работа"><svg viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+        <div class="gallery__progress"><span></span></div>
+        <button class="gbtn gbtn--next magnetic" aria-label="Следующая работа"><svg viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- бегущая лента остальных работ (Tilda: T123 или нативный Zero с анимацией по шагам) -->
+  <div class="marquee" aria-label="Ещё работы">
+    <div class="marquee__track"></div>
+  </div>
+</section>
+
+<!-- ============ 3. КАРТОЧКИ ЛЕСТНИЦ (Tilda: карточки — Zero; раскрытие — T123) ============ -->
+<section class="stairs" id="stairs" data-block="cards">
+  <div class="section-head">
+    <p class="eyebrow"><span class="line"></span>Лестницы на заказ</p>
+    <h2 class="h2"><span class="split">Выберите</span> <em class="split">свою лестницу</em></h2>
+    <p class="section-lead">Нажмите на карточку, чтобы увидеть детали.</p>
+  </div>
+  <div class="cards"></div>
+</section>
+
+<!-- ============ 4. ПРЕИМУЩЕСТВА (Tilda: Zero Block; счётчики — T123) ============ -->
+<section class="why" id="why" data-block="why">
+  <div class="section-head">
+    <p class="eyebrow"><span class="line"></span>Почему нас выбирают</p>
+    <h2 class="h2"><span class="split">Работаем</span> <em class="split">честно и красиво</em></h2>
+  </div>
+
+  <ul class="adv">
+    <li class="adv__item">
+      <div class="adv__num"><span data-count="0">0</span><small>₽</small></div>
+      <div class="adv__body">
+        <h3>Бесплатный замер</h3>
+        <p>Оставьте заявку, наш дизайнер и мастер приедут к вам, произведут замеры и ответят на все интересующие вопросы.</p>
+      </div>
+      <span class="adv__line"></span>
+    </li>
+    <li class="adv__item">
+      <div class="adv__num"><span data-text="3D">3D</span></div>
+      <div class="adv__body">
+        <h3>3D-проект лестницы бесплатно</h3>
+        <p>Вы увидите, как будет выглядеть лестница в вашем интерьере до начала работ по изготовлению.</p>
+      </div>
+      <span class="adv__line"></span>
+    </li>
+    <li class="adv__item">
+      <div class="adv__num"><span data-count="1">1</span><small>год</small></div>
+      <div class="adv__body">
+        <h3>Гарантия 1 год</h3>
+        <p>Мы уверены в качестве нашей продукции и поэтому предлагаем гарантию на 1 год.</p>
+      </div>
+      <span class="adv__line"></span>
+    </li>
+    <li class="adv__item">
+      <div class="adv__num"><span data-count="70">70</span><small>%</small></div>
+      <div class="adv__body">
+        <h3>Предоплата 70%</h3>
+        <p>Современное оборудование на нашем производстве позволяет достигать высокого качества по адекватным ценам.</p>
+      </div>
+      <span class="adv__line"></span>
+    </li>
+    <li class="adv__item">
+      <div class="adv__num"><span data-text="₽">₽</span></div>
+      <div class="adv__body">
+        <h3>Выгодные цены</h3>
+        <p>Мы выполняем работы на собственном производстве и поэтому у нас минимальная цена на лестницы.</p>
+      </div>
+      <span class="adv__line"></span>
+    </li>
+  </ul>
+
+  <div class="glassnote">
+    <p class="eyebrow"><span class="line"></span>Уникальная услуга</p>
+    <p class="glassnote__text">Лестницы из <em>стекла</em> и <em>камня</em></p>
+    <a href="#works" class="link-arrow" data-goto="glass">Посмотреть примеры <span>→</span></a>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 5. ПОДВАЛ (Tilda: контакты — Zero; светящееся «ЛЕГРА» — T123) ============ -->
+<footer class="footer" id="contacts" data-block="footer">
+  <div class="footer__top">
+    <div class="footer__call">
+      <p class="eyebrow"><span class="line"></span>Контакты</p>
+      <a class="footer__phone" href="tel:+79053870557">8&nbsp;905&nbsp;387&nbsp;05&nbsp;57</a>
+      <div class="footer__btns">
+        <a class="btn btn--red magnetic" href="tel:+79053870557">Позвонить</a>
+        <a class="btn btn--ghost magnetic" href="tel:+79053870557" data-todo="max-link">Написать в MAX</a>
+      </div>
+    </div>
+    <div class="footer__cols">
+      <div>
+        <p class="footer__label">Адрес</p>
+        <p>г. Саратов,<br>ул. Астраханская, д. 43, корп. 2, офис 211</p>
+      </div>
+      <div>
+        <p class="footer__label">Разделы</p>
+        <p class="footer__links"><a href="#works">Работы</a><a href="#stairs">Лестницы</a><a href="#why">Почему мы</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="neon" aria-hidden="true">
+    <svg class="neon__svg" viewBox="0 0 1000 240" preserveAspectRatio="xMidYMid meet">
+      <defs>
+        <radialGradient id="spot" gradientUnits="userSpaceOnUse" cx="500" cy="120" r="260">
+          <stop offset="0" stop-color="#ffe9cf"/>
+          <stop offset=".25" stop-color="#e3c7a2"/>
+          <stop offset=".55" stop-color="#ca0f00"/>
+          <stop offset="1" stop-color="#ca0f00" stop-opacity="0"/>
+        </radialGradient>
+        <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+          <feGaussianBlur stdDeviation="6" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <text class="neon__base" x="500" y="205" text-anchor="middle" textLength="980" lengthAdjust="spacingAndGlyphs">ЛЕГРА</text>
+      <text class="neon__lit" x="500" y="205" text-anchor="middle" textLength="980" lengthAdjust="spacingAndGlyphs" filter="url(#glow)">ЛЕГРА</text>
+    </svg>
+  </div>
+
+  <div class="footer__bottom">
+    <span>© ЛЕГРА — лестницы и комплектующие</span>
+    <span class="footer__slogan">Мы поможем вам подняться!</span>
+    <a href="#top" class="footer__up magnetic">Наверх ↑</a>
+  </div>
+</footer>
+
+<!-- модалка карточки -->
+<div class="sheet" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="sheet-title">
+  <div class="sheet__veil"></div>
+  <div class="sheet__panel">
+    <button class="sheet__close" aria-label="Закрыть">×</button>
+    <div class="sheet__media"></div>
+    <div class="sheet__content">
+      <p class="eyebrow"><span class="line"></span><span class="sheet__kicker"></span></p>
+      <h3 class="sheet__title" id="sheet-title"></h3>
+      <dl class="sheet__specs"></dl>
+      <ul class="sheet__inc">
+        <li>Бесплатный замер</li>
+        <li>3D-проект бесплатно</li>
+        <li>Гарантия 1 год</li>
+      </ul>
+      <div class="sheet__btns">
+        <a class="btn btn--red" href="tel:+79053870557">Заказать</a>
+        <a class="btn btn--ghost" href="tel:+79053870557" data-todo="max-link">Написать в MAX</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
