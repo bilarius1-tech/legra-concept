@@ -31,7 +31,7 @@
     if (lenis) lenis.scrollTo(el, { offset: off, duration: 1.4 });
     else window.scrollTo({ top: el.getBoundingClientRect().top + scrollY + off, behavior: RM ? 'auto' : 'smooth' });
   };
-  $$('a[href^="#"]').forEach((a) => a.addEventListener('click', (e) => {
+  $$('a[href^="#"]:not(.lgc-bar__go)').forEach((a) => a.addEventListener('click', (e) => {
     const id = a.getAttribute('href');
     if (id.length < 2) return;
     const el = id === '#top' ? document.body : $(id);
